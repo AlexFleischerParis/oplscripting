@@ -1,0 +1,14 @@
+prepare {                                      
+   function priceDecrease(s, name) {  
+      writeln("before price decrease");
+      writeln("s=",s);                
+      for(i=0;i<s.size;i++) Opl.item(s,i).cost-=100;
+      writeln("after price decrease");
+      writeln("s=",s); 
+      return true;
+   }   
+}
+
+nbKids= 300;
+
+buses={<40,500>,<30,400>} invoke priceDecrease;

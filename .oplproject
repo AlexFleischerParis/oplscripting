@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="array" category="opl">
+			<ref name="array.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="helloworld" category="opl">
+			<ref name="helloworld.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="IloOplGetEnv" category="opl">
+			<ref name="IloOplGetEnv.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="functionarguments" category="opl">
+			<ref name="functionarguments.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="function" category="opl">
+			<ref name="function.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="string" category="opl">
+			<ref name="string.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="longcomputation" category="opl">
+			<ref name="longcomputation.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="date" category="opl">
+			<ref name="date.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="primenumbers" category="opl">
+			<ref name="primenumbers.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="typeof" category="opl">
+			<ref name="typeof.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="geturlfile" category="opl">
+			<ref name="geturlfile.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="zoobruteforcescripting" category="opl">
+			<ref name="zoobruteforcescripting.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="zoobruteforceOPL" category="opl">
+			<ref name="zoobruteforceOPL.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="zooscriptingindata" category="opl">
+			<ref name="zooscriptingindata.mod" type="model">
+			</ref>
+			<ref name="zooscriptingindata.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
