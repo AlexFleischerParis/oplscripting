@@ -63,6 +63,14 @@
 			<ref name="getCPLEXversion.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="sets" category="opl">
+			<ref name="sets.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="turntuplesetintoflattupleset" category="opl">
+			<ref name="turntuplesetintoflattupleset.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
