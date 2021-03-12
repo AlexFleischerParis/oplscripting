@@ -86,6 +86,9 @@ Cloudpak for Data Watson Studio
       writeln();
     }
     
+    // the same but through OPL modeling and not scripting
+    {t2} s2bis=union (i in s) union(j in r) union(k in i.intset) {<i.firstname,j,i.number[j],k,i.sub.x,i.sub.y>};
+    
     execute display_s2
     {
       writeln("s=");
@@ -93,6 +96,9 @@ Cloudpak for Data Watson Studio
       writeln();
       writeln("s2=");
       for(var l in s2 )writeln(l);
+      writeln();
+      writeln("s2bis=");
+      for(var l in s2bis )writeln(l);
     }
   
   
@@ -124,6 +130,16 @@ s=
      <"Alexander" [1 4] {9 10} <6 7>>}
 
 s2=
+ <"Nicolas" 1 1 5 1 2>
+ <"Nicolas" 1 1 6 1 2>
+ <"Nicolas" 2 2 5 1 2>
+ <"Nicolas" 2 2 6 1 2>
+ <"Alexander" 1 1 9 6 7>
+ <"Alexander" 1 1 10 6 7>
+ <"Alexander" 2 4 9 6 7>
+ <"Alexander" 2 4 10 6 7>
+ 
+ s2bis=
  <"Nicolas" 1 1 5 1 2>
  <"Nicolas" 1 1 6 1 2>
  <"Nicolas" 2 2 5 1 2>
