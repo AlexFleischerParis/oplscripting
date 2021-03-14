@@ -71,6 +71,14 @@
 			<ref name="turntuplesetintoflattupleset.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="piopl" category="opl">
+			<ref name="piopl.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="pioplscripting" category="opl">
+			<ref name="pioplscripting.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
