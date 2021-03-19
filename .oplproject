@@ -79,6 +79,10 @@
 			<ref name="pioplscripting.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoominandmax" category="opl">
+			<ref name="zoominandmax.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
