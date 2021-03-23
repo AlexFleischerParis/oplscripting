@@ -3,6 +3,11 @@ float f1=3.4;
 string s1="s1";
 {int} set1={1,2};
 
+dvar int x;
+dexpr int y=2*x;
+
+range r=1..2;
+
 tuple t
 {
   int a;
@@ -28,6 +33,9 @@ execute
     var value=Opl.first(tupleSet)[tupleSet.getFieldName(j)];
     writeln(typeof(value));
   }    
+  writeln("x:",typeof(x));
+  writeln("y:",typeof(y));
+  writeln("r:",typeof(r));
   writeln();
 }  
 
@@ -42,6 +50,8 @@ set1:IloDiscreteDataCollection
 a:number
 b:string
 c:IloDiscreteDataCollection
-
+x:IloNumVar
+y:IloNumExpr
+r:IloIntRange
 
 */
