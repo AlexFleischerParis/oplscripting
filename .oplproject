@@ -83,6 +83,10 @@
 			<ref name="zoominandmax.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="range" category="opl">
+			<ref name="range.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
