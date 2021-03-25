@@ -91,6 +91,10 @@
 			<ref name="oplnamespace.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="math" category="opl">
+			<ref name="math.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
