@@ -87,6 +87,10 @@
 			<ref name="range.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="oplnamespace" category="opl">
+			<ref name="oplnamespace.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
