@@ -95,6 +95,10 @@
 			<ref name="math.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="eval" category="opl">
+			<ref name="eval.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
