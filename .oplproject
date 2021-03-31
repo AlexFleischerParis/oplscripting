@@ -99,6 +99,14 @@
 			<ref name="eval.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="IloConstraint" category="opl">
+			<ref name="IloConstraint.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="IloNumVar" category="opl">
+			<ref name="IloNumVar.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
