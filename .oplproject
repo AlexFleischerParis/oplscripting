@@ -107,6 +107,16 @@
 			<ref name="IloNumVar.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zooandsaveresultindatfile" category="opl">
+			<ref name="zooandsaveresultindatfile.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="readzooresultfromfile" category="opl">
+			<ref name="readzooresultfromfile.mod" type="model">
+			</ref>
+			<ref name="zooresult.dat" type="data">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
