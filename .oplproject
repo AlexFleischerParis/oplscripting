@@ -117,6 +117,10 @@
 			<ref name="zooresult.dat" type="data">
 			</ref>
 		</config>
+		<config default="false" name="arraymethods" category="opl">
+			<ref name="arraymethods.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
