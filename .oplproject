@@ -121,6 +121,14 @@
 			<ref name="arraymethods.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="failingmain" category="opl">
+			<ref name="failingmain.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="successfulmain" category="opl">
+			<ref name="successfulmain.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
