@@ -129,6 +129,10 @@
 			<ref name="successfulmain.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="IloOplCallJava" category="opl">
+			<ref name="IloOplCallJava.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
