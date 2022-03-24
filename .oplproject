@@ -1,138 +1,247 @@
 <?xml version="1.0" encoding="ASCII"?><project>
-	<version>1.0</version>
-	<configs>
-		<config default="true" name="array" category="opl">
-			<ref name="array.mod" type="model">
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="array" category="opl">
+            			
+            <ref name="array.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="helloworld" category="opl">
-			<ref name="helloworld.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="helloworld" category="opl">
+            			
+            <ref name="helloworld.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="IloOplGetEnv" category="opl">
-			<ref name="IloOplGetEnv.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="IloOplGetEnv" category="opl">
+            			
+            <ref name="IloOplGetEnv.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="functionarguments" category="opl">
-			<ref name="functionarguments.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="functionarguments" category="opl">
+            			
+            <ref name="functionarguments.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="function" category="opl">
-			<ref name="function.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="function" category="opl">
+            			
+            <ref name="function.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="string" category="opl">
-			<ref name="string.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="string" category="opl">
+            			
+            <ref name="string.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="longcomputation" category="opl">
-			<ref name="longcomputation.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="longcomputation" category="opl">
+            			
+            <ref name="longcomputation.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="date" category="opl">
-			<ref name="date.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="date" category="opl">
+            			
+            <ref name="date.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="primenumbers" category="opl">
-			<ref name="primenumbers.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="primenumbers" category="opl">
+            			
+            <ref name="primenumbers.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="typeof" category="opl">
-			<ref name="typeof.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="typeof" category="opl">
+            			
+            <ref name="typeof.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="geturlfile" category="opl">
-			<ref name="geturlfile.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="geturlfile" category="opl">
+            			
+            <ref name="geturlfile.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="zoobruteforcescripting" category="opl">
-			<ref name="zoobruteforcescripting.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="zoobruteforcescripting" category="opl">
+            			
+            <ref name="zoobruteforcescripting.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="zoobruteforceOPL" category="opl">
-			<ref name="zoobruteforceOPL.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="zoobruteforceOPL" category="opl">
+            			
+            <ref name="zoobruteforceOPL.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="zooscriptingindata" category="opl">
-			<ref name="zooscriptingindata.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="zooscriptingindata" category="opl">
+            			
+            <ref name="zooscriptingindata.mod" type="model">
 			</ref>
-			<ref name="zooscriptingindata.dat" type="data">
+            			
+            <ref name="zooscriptingindata.dat" type="data">
 			</ref>
-		</config>
-		<config default="false" name="getCPLEXversion" category="opl">
-			<ref name="getCPLEXversion.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="getCPLEXversion" category="opl">
+            			
+            <ref name="getCPLEXversion.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="sets" category="opl">
-			<ref name="sets.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="sets" category="opl">
+            			
+            <ref name="sets.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="turntuplesetintoflattupleset" category="opl">
-			<ref name="turntuplesetintoflattupleset.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="turntuplesetintoflattupleset" category="opl">
+            			
+            <ref name="turntuplesetintoflattupleset.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="piopl" category="opl">
-			<ref name="piopl.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="piopl" category="opl">
+            			
+            <ref name="piopl.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="pioplscripting" category="opl">
-			<ref name="pioplscripting.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="pioplscripting" category="opl">
+            			
+            <ref name="pioplscripting.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="zoominandmax" category="opl">
-			<ref name="zoominandmax.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="zoominandmax" category="opl">
+            			
+            <ref name="zoominandmax.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="range" category="opl">
-			<ref name="range.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="range" category="opl">
+            			
+            <ref name="range.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="oplnamespace" category="opl">
-			<ref name="oplnamespace.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="oplnamespace" category="opl">
+            			
+            <ref name="oplnamespace.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="math" category="opl">
-			<ref name="math.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="math" category="opl">
+            			
+            <ref name="math.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="eval" category="opl">
-			<ref name="eval.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="eval" category="opl">
+            			
+            <ref name="eval.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="IloConstraint" category="opl">
-			<ref name="IloConstraint.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="IloConstraint" category="opl">
+            			
+            <ref name="IloConstraint.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="IloNumVar" category="opl">
-			<ref name="IloNumVar.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="IloNumVar" category="opl">
+            			
+            <ref name="IloNumVar.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="zooandsaveresultindatfile" category="opl">
-			<ref name="zooandsaveresultindatfile.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="zooandsaveresultindatfile" category="opl">
+            			
+            <ref name="zooandsaveresultindatfile.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="readzooresultfromfile" category="opl">
-			<ref name="readzooresultfromfile.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="readzooresultfromfile" category="opl">
+            			
+            <ref name="readzooresultfromfile.mod" type="model">
 			</ref>
-			<ref name="zooresult.dat" type="data">
+            			
+            <ref name="zooresult.dat" type="data">
 			</ref>
-		</config>
-		<config default="false" name="arraymethods" category="opl">
-			<ref name="arraymethods.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="arraymethods" category="opl">
+            			
+            <ref name="arraymethods.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="failingmain" category="opl">
-			<ref name="failingmain.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="failingmain" category="opl">
+            			
+            <ref name="failingmain.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="successfulmain" category="opl">
-			<ref name="successfulmain.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="successfulmain" category="opl">
+            			
+            <ref name="successfulmain.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="IloOplCallJava" category="opl">
-			<ref name="IloOplCallJava.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="IloOplCallJava" category="opl">
+            			
+            <ref name="IloOplCallJava.mod" type="model">
 			</ref>
-		</config>
-	</configs>
-	
+            		
+        </config>
+        		
+        <config default="false" name="zoolazyevaluation" category="opl">
+            			
+            <ref name="zoolazyevalaution.mod" type="model">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
 </project>
