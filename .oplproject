@@ -240,6 +240,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="IloIntervalVar" category="opl">
+            			
+            <ref name="IloIntervalVar.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
