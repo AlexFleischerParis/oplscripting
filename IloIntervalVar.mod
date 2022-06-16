@@ -7,6 +7,8 @@ dvar interval itvs1b intensity f;
 dvar interval itvs2 optional;
 dvar interval itvs3 optional;
 
+dvar interval itvs[1..4]=[itvs1,itvs1b,itvs2,itvs3];
+
 subject to
 {
   startOf(itvs1)==2;
@@ -40,6 +42,8 @@ execute
   display("itvs1b",itvs1b);
   display("itvs2",itvs2);
   display("itvs3",itvs3);
+  
+  writeln(itvs);
 }
 
 /*
