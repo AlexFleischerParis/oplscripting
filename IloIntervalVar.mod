@@ -43,6 +43,7 @@ execute
   display("itvs2",itvs2);
   display("itvs3",itvs3);
   
+  writeln();
   writeln(itvs);
 }
 
@@ -55,5 +56,6 @@ itvs1b =  <1 2 10 7> which is the same as <1 2 10 7> and lengthOf = 8
 itvs2 =  <1 2 10 8> which is the same as <1 2 10 8> and lengthOf = 8
 itvs3 =  <0 0 0 0> which is the same as <0 0 0 0> and lengthOf = 0
 
+ [<1 2 10 8> <1 2 10 7> <1 2 10 8> <0 0 0 0>]
 
 */
