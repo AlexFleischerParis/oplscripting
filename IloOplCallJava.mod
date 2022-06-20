@@ -36,4 +36,10 @@ for(var i=1;i<=5;i++)
  var t = rnd.nextDouble();
  writeln(t);
 }
+writeln("Gaussian");
+for(var i=1;i<=5;i++)
+{			    			  
+ var t = rnd.nextGaussian();
+ writeln(t);
+}
 }
