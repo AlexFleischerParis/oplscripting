@@ -247,6 +247,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="IloIntervalSequenceVar" category="opl">
+            			
+            <ref name="IloIntervalSequenceVar.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
