@@ -26,3 +26,14 @@ IloOplCallJava("javax.swing.JOptionPane", "showMessageDialog",
 "(Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)V", 
 null, msg, title, 1);	 
 }  
+
+execute{ 
+writeln("5 random numbers");
+var rnd = IloOplCallJava("java.util.Random", "<init>", "()");
+rnd.setSeed(1);	
+for(var i=1;i<=5;i++)
+{			    			  
+ var t = rnd.nextDouble();
+ writeln(t);
+}
+}
