@@ -254,6 +254,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="IloNumExpr" category="opl">
+            			
+            <ref name="IloNumExpr.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
