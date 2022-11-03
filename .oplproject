@@ -261,6 +261,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="IloOplFile" category="opl">
+            			
+            <ref name="IloOplFile.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
