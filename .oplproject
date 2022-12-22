@@ -268,6 +268,20 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="IloCplex" category="opl">
+            			
+            <ref name="IloCplex.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="IloCP" category="opl">
+            			
+            <ref name="IloCP.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
