@@ -282,6 +282,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="splitstringintoarray" category="opl">
+            			
+            <ref name="splitstringintoarray.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
