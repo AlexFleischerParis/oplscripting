@@ -289,6 +289,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="commonpitfalls" category="opl">
+            			
+            <ref name="commonpitfalls.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
